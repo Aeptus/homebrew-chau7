@@ -6,6 +6,13 @@ Install Chau7 for Apple Silicon on macOS Sonoma or later:
 brew install --cask aeptus/chau7/chau7
 ```
 
+If Homebrew asks you to trust this custom cask, review [the cask definition](Casks/chau7.rb), then run:
+
+```sh
+brew trust --cask aeptus/chau7/chau7
+brew install --cask aeptus/chau7/chau7
+```
+
 Update an existing installation:
 
 ```sh

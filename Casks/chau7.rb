@@ -1,6 +1,6 @@
 cask "chau7" do
-  version "0.5.0"
-  sha256 "5b7c8fba3b0de4dbf7d5c3d4845cfcde1606041bdbb2decf80e5f0847eb4dab8"
+  version "0.5.1"
+  sha256 "15f18e17b9a2c2a591edaeceab6cad29a04a823bdc845f1ebd5e11a1df34cfdf"
 
   url "https://github.com/Aeptus/chau7/releases/download/v#{version}/Chau7-AppleSilicon.dmg"
   name "Chau7"
@@ -17,9 +17,4 @@ cask "chau7" do
     "~/Library/Logs/Chau7",
     "~/Library/Logs/Chau7.log",
   ]
-
-  caveats <<~EOS
-    Chau7 0.5.0 is ad-hoc signed and not notarized.
-    macOS may require first-launch approval in System Settings > Privacy & Security.
-  EOS
 end
